@@ -3,6 +3,9 @@ public class PostOfficeAssistant {
         return (stamp());
     }
     public send(Letter) {
-        if (stamp())
+        if (stamp());
+        System.out.println("You letter sent.");
+        else
+            System.out.println("You need to stamp your letter!");
     }
 }

@@ -1,4 +1,4 @@
-//d
+//dsss
 public class Letter {
     private String address;
     public Letter (String address) {
@@ -7,7 +7,7 @@ public class Letter {
     public String getAddress() {
         return address;
     }
-    public Boolean checkAddress(Letter) {
+    public Boolean checkAddress(Letter letter) {
         return (address != null && !address.equals(""));
     }
     public Boolean isStamped(Letter) {
